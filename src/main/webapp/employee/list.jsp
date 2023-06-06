@@ -17,12 +17,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-<a href="employee/employee.jsp" class="btn btn-primary" style="float: right">+Create Employee</a>
 
 <%--message--%>
 <p style="color: green">${message}</p>
 
-<h1>LIST EMPLOYEE: </h1>
+<h1>LIST EMPLOYEE:
+    <a href="employee/employee.jsp" class="btn btn-primary" style="float: right">+Create Employee</a>
+</h1>
+
 <table class="table" style="width: 80%; margin: 0 auto">
     <thead>
     <tr>

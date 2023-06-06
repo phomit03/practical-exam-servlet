@@ -15,13 +15,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Create Employee: </h1>
+    <h1 style="margin: 50px">Create Employee:
+        <a href="/employeeServlet" class="btn btn-primary" style="float: right">Back Employee List ></a>
+    </h1>
 
-    <a href="/employeeServlet">
-        <button type="submit" class="btn btn-primary">Back List</button>
-    </a>
-
-    <br/>
     <form action="/employeeServlet" method="post" style="width: 50%; margin: 0 auto">
         <input type="hidden" name="action" value="createEmployee">
 
